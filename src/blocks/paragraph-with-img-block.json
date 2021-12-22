@@ -1,0 +1,12 @@
+{
+    "name":"jay-section/paragraph-with-img",
+    "title":"Paragraph with Image",
+    "category":"widgets",
+    "icon":"smiley",
+"parent":["jay-section/jay-section"],
+"description": "add a paragraph with image",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "jay-section"
+}

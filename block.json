@@ -1,0 +1,17 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "jay-section/jay-section",
+	"version": "0.1.0",
+	"title": "Jay-section",
+	"category": "widgets",
+	"icon": "welcome-widgets-menus",
+	"description": "Trial custom guternberg block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "jay-section",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

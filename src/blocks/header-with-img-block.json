@@ -1,0 +1,12 @@
+{
+    "name":"jay-section/header-with-img",
+    "title":"Header with Image",
+    "category":"widgets",
+    "icon":"smiley",
+"parent":["jay-section/jay-section"],
+"description": "add a header with image",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "jay-section"
+}
