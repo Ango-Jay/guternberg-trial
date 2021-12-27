@@ -1,0 +1,12 @@
+{
+    "name":"jay-section/adv-button",
+    "title":"Advance Button",
+    "category":"widgets",
+    "icon":"smiley",
+"parent":["jay-section/jay-section"],
+"description": "add button",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "jay-section"
+}

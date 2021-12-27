@@ -12,7 +12,7 @@ export const headerSettings = {
     edit(){
         const blockProps = useBlockProps();
         const SUB_TEMP = [
-            ['core/columns',{},[
+            ['core/columns',{templateLock:'all'},[
                 ['core/column', {templateLock:'all', width:'30%',verticalAlignment:'center'},[ ['core/image',{align:'center'}] ] ],
                 ['core/column',{templateLock:'all',verticalAlignment:'center'},[ ['core/heading',{placeholder:'enter title'}] ] ]
             ]]

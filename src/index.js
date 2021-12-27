@@ -19,6 +19,8 @@ import './style.scss';
  */
 import edit from './edit';
 import save from './save';
+// filters 
+import './filters/extend-core-btn';
 
 /**
  * Every block starts by registering a new block type definition.
@@ -44,6 +46,8 @@ import {headerMetaData, headerName, headerSettings } from './blocks/header-with-
 // paragraph 
 import {paraMetadata, paraName, paraSettings } from './blocks/paragraph-with-img';
 //registerBlockType({paraName, ...paraMetadata}, paraSettings);
+// button
+import {buttonMetaData, buttonName, buttonSettings } from './blocks/adv-button/adv-button';
 
 const registerBlk = (name, metadata, settings) => {
 registerBlockType({name,...metadata}, settings);
@@ -51,3 +55,4 @@ registerBlockType({name,...metadata}, settings);
 
 registerBlk(headerName, headerMetaData, headerSettings );
 registerBlk(paraName, paraMetadata, paraSettings);
+registerBlk(buttonName, buttonMetaData, buttonSettings);

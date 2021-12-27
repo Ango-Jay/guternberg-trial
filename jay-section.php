@@ -24,3 +24,5 @@ function jay_section_jay_section_block_init() {
 	register_block_type( __DIR__ );
 }
 add_action( 'init', 'jay_section_jay_section_block_init' );
+
+

@@ -12,13 +12,13 @@ export const paraSettings = {
     edit(){
         const blockProps = useBlockProps();
         const SUB_TEMP = [
-            ['core/columns',{},[
+            ['core/columns',{templateLock:'all'},[
 
-                ['core/column', {}, [['core/column', {templateLock:'all', width:'30%',verticalAlignment:'center'},[ ['core/image',{align:'left'}] ] ],
+                ['core/column', {templateLock:'all'}, [['core/column', {templateLock:'all', width:'30%',verticalAlignment:'center'},[ ['core/image',{align:'left'}] ] ],
                 ['core/column',{templateLock:'all',verticalAlignment:'center'},[ ['core/paragraph',{placeholder:'enter txt'}] ] ]
             ]],
 
-            ['core/column', {}, [['core/column', {templateLock:'all', width:'30%',verticalAlignment:'center'},[ ['core/image',{align:'left'}] ] ],
+            ['core/column', {templateLock:'all'}, [['core/column', {templateLock:'all', width:'30%',verticalAlignment:'center'},[ ['core/image',{align:'left'}] ] ],
             ['core/column',{templateLock:'all',verticalAlignment:'center'},[ ['core/paragraph',{placeholder:'enter txt'}] ] ]
         ]]
 

@@ -21,6 +21,7 @@ import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
  */
 import './editor.scss';
 
+
 /**
  * The edit function describes the structure of your block in the context of the
  * editor. This represents what the editor will render when the block is used.
@@ -33,14 +34,15 @@ import './editor.scss';
 
 const MY_TEMPLATE = [
 ['jay-section/header-with-img'],
-['jay-section/paragraph-with-img']
+['jay-section/paragraph-with-img'],
+['jay-section/adv-button']
 ]
  
 export default function edit() {
 const blockProps = useBlockProps();
 	return (
 		<div {...blockProps}>
-<InnerBlocks template={MY_TEMPLATE}  />
+<InnerBlocks template={MY_TEMPLATE} allowedBlocks={['jay-section/paragraph-with-img']} />
 		</div>
 	);
 }
